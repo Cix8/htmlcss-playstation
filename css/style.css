@@ -5,7 +5,12 @@ img {
 header {
     width: 100%;
 }
-
 .ms_icon-size {
     font-size: 1.5rem;
+}
+
+.banner {
+    height: 650px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
 }
