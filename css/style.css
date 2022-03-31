@@ -9,8 +9,12 @@ header {
     font-size: 1.5rem;
 }
 
-.banner {
+.banner-content {
     height: 650px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
+}
+
+.banner .options .img-container {
+    border-radius: 20px;
 }
