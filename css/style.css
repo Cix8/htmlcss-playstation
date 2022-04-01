@@ -63,6 +63,10 @@ header a {
     color: inherit;
 }
 
+header a:hover {
+    color: #0d6efd!important;
+}
+
 header .dropdown-toggle::after {
     display: none;
 }
