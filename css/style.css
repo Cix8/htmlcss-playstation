@@ -19,6 +19,25 @@ header {
     width: 100%;
 }
 
+header .dropdown-toggle::after {
+    display: none;
+}
+
+header .dropdown-chevron {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 10px;
+}
+
+header .nav-item:hover .colored-chevron {
+    display: inline!important;
+}
+
+header .nav-item:hover .default-chevron {
+    display: none;
+}
+
 header .btn:focus {
     box-shadow: none;
 }
