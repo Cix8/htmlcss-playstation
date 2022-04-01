@@ -9,13 +9,24 @@ header {
     font-size: 1.5rem;
 }
 
+.bg-returnal {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.bg-it2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 .banner-content {
     height: 650px;
-    background-image: url(../img/jumbo-bg.png);
     background-position: center;
 }
 
-.banner .options .img-container {
+.bg-returnal .img-container {
+    min-width: 230px;
+}
+
+.bg-returnal .options .img-container {
     border-radius: 20px;
 }
 
