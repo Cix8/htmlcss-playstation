@@ -9,6 +9,11 @@ img {
 header {
     width: 100%;
 }
+
+header .btn:focus {
+    box-shadow: none;
+}
+
 .ms_icon-size {
     font-size: 1.5rem;
 }
