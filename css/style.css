@@ -38,6 +38,10 @@ header .nav-item:hover .default-chevron {
     display: none;
 }
 
+header .dropdown-menu.show {
+    display: flex;
+}
+
 header .btn:focus {
     box-shadow: none;
 }
