@@ -17,16 +17,6 @@ body {
 }
 
 /* UTILITY */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.float-l {
-    float: left;
-}
-
 .ms_icon-size {
     font-size: 1.5rem;
 }
