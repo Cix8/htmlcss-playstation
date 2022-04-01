@@ -9,7 +9,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 body {
@@ -68,6 +67,10 @@ body {
 /* HEADER */
 header {
     width: 100%;
+}
+
+header a {
+    color: inherit;
 }
 
 header .dropdown-toggle::after {
@@ -134,8 +137,12 @@ footer .logo-container {
     width: 200px;
 }
 
-footer a:hover {
+footer a,
+footer a:hover  {
     color: inherit;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
 
