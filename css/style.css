@@ -127,6 +127,10 @@ footer .logo-container {
     width: 200px;
 }
 
+footer .icon-container {
+    width: 25px;
+}
+
 footer a,
 footer a:hover  {
     color: inherit;
