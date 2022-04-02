@@ -52,7 +52,34 @@ body {
 
 .ms_btn {
     background-color: #d9dadc;
-} 
+}
+
+.btn-container {
+    outline: solid 0 black;
+    transition: outline .1s linear;
+    border-radius: 50rem;
+}
+
+.btn-container:hover { 
+    outline-width: 2px;
+    padding: .1rem;
+}
+
+.btn-container:hover .btn {
+    padding: 0.275rem 0.65rem; /* .375rem .75rem (padding btn bootstrap5) - .1 (padding .btn-container:hover) */
+}
+
+.ms_btn-red {
+    outline: solid 0 #cd3d0f;
+}
+
+.ms_btn-primary {
+    outline: solid 0 #2d64e6;
+}
+
+.ms_btn-light {
+    outline: solid 0 #d9dadc;
+}
 
 /* HEADER */
 header {
