@@ -50,6 +50,17 @@ body {
     background-color: #0d6efd;
 }
 
+.full-active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #0d6efd;
+    border-radius: 20px;
+}
+
 .ms_btn {
     background-color: #d9dadc;
 }
@@ -139,6 +150,12 @@ header .btn:focus {
     min-width: 230px;
 }
 
+.relative-container:hover {
+    cursor: pointer;
+    animation-name: upper;
+    animation-duration: 5s;
+}
+
 /* PS-PLUS-SECTION */
 section.playstation-plus {
     background-color: #bebcbb;
@@ -178,6 +195,21 @@ footer .reverse-hover {
 footer .reverse-hover:hover {
     color: #0d6efd;
     text-decoration: none;
+}
+
+/* ANIMATIONS */
+@keyframes upper {
+    0% {
+        bottom: 0;
+    }
+
+    10% {
+        bottom: 20px;
+    }
+
+    100% {
+        bottom: 20px;
+    }
 }
 
 /* MEDIA QUERIES */
