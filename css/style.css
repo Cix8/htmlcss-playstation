@@ -92,6 +92,11 @@ body {
     outline: solid 0 #d9dadc;
 }
 
+.overlay {
+    display: none!important;
+    background-color: rgba(0, 0, 0, .6);
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -154,6 +159,11 @@ header .btn:focus {
     cursor: pointer;
     animation-name: upper;
     animation-duration: 6s;
+}
+
+/* NEW GAMES */
+.new-games .ms_card:hover .overlay {
+    display: flex!important;
 }
 
 /* PS-PLUS-SECTION */
