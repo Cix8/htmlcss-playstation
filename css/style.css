@@ -141,6 +141,10 @@ header .dropdown-menu {
     width: auto;
 }
 
+header .dropdown-menu.show+.dropdown-chevron{
+    transform: rotate(180deg);
+}
+
 header .btn:focus {
     box-shadow: none;
 }
@@ -231,6 +235,18 @@ footer .reverse-hover:hover {
 }
 
 /* MEDIA QUERIES */
+@media all and (max-width: 991.98px) {
+    header .dropdown-menu.show+.dropdown-chevron{
+        top: 2%;
+    }
+    
+    header .dropdown-menu,
+    #navbarDropdownMyPs+.dropdown-menu {
+        width: 90vw;
+        margin: 0 auto;
+    }
+}
+
 @media all and (min-width: 992px) {
     header .dropdown-menu,
     #navbarDropdownMyPs+.dropdown-menu {
