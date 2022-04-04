@@ -150,7 +150,7 @@ header .btn:focus {
     min-width: 230px;
 }
 
-.relative-container:hover {
+.options .img-container:hover {
     cursor: pointer;
     animation-name: upper;
     animation-duration: 6s;
