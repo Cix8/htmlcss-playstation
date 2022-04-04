@@ -102,6 +102,10 @@ header {
     width: 100%;
 }
 
+header .top .img-container {
+    width: 120px;
+}
+
 header a {
     color: inherit;
 }
